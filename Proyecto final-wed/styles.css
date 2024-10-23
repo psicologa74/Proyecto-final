@@ -1,0 +1,270 @@
+/* Estilo general */
+body {
+    font-family: 'Georgia', serif, 'Pacifico', cursive; /* Se incluyen ambas fuentes */
+    font-size: 20px; /* Ajusta el tamaño de letra según tus necesidades */
+    background-image: url('rostro\ hojas.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+/* Estilo para títulos */
+h1 {
+    font-family: 'Pacifico', cursive; /* Fuente para títulos */
+    font-size: 40px; /* Tamaño de letra para títulos */
+    color: #2c3e50; /* Color de texto para títulos */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilo para subtítulos */
+h2 {
+    font-family: 'Georgia', serif; /* Fuente para subtítulos */
+    font-size: 30px; /* Tamaño de letra para subtítulos */
+    color: #373555; /* Color de texto para subtítulos */
+    margin: 15px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilo adicional para otros niveles de encabezado, si es necesario */
+h3 {
+    font-family: 'Georgia', serif; /* Fuente para h3 */
+    font-size: 30px; /* Tamaño de letra para h3 */
+    color: #030303; /* Color de texto para h3 */
+    margin: 10px 0; /* Espaciado superior e inferior */
+}
+/* Estilo para párrafos */
+p {
+    font-family: 'Georgia', serif; /* Fuente para párrafos */
+    font-size: 25px; /* Tamaño de letra para párrafos */
+    color: #050505; /* Color de texto para párrafos */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 15px 0; /* Espaciado superior e inferior */
+    text-align: justify; /* Alineación del texto */
+}
+
+/* Encabezado */
+.skeuo-nav {
+    background-color: rgba(0, 128, 128, 0.8); /* Verde esmeralda translúcido */
+    padding: 10px 20px;
+}
+
+.skeuo-nav a.nav-link {
+    color: #7ea3db;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.skeuo-nav a.nav-link:hover {
+    color: #abaaec; /* Dorado */
+}
+
+
+
+/* Botones skeuomorfos */
+.skeuo-btn {
+    background-color: #008080; /* Verde esmeralda */
+    color: rgb(86, 188, 235);
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.skeuo-btn:hover {
+    background-color: #163280; /* Dorado */
+}
+
+/* Estilo de las imágenes */
+.skeuo-img {
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Animaciones */
+.animar {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.animar-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* Estilo para la sección de servicios */
+#servicios {
+    background-color: #2be0b3; /* Azul */
+    color: rgb(32, 13, 68); /* Texto blanco */
+    font-size: 26px;
+}
+.table {
+    background-color: rgb(52, 172, 219);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #5781af; /* Color del encabezado */
+    color: rgb(18, 36, 85); /* Color del texto del encabezado */
+}
+
+.table td {
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilos para la sección de video */
+#video {
+    border: 2px solid #6c757d; /* Color gris oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+/* Estilos para el título */
+#video h1 {
+    margin-bottom: 20px; /* Espacio inferior del título */
+    color: #495057; /* Color gris oscuro */
+}
+
+/* Estilos para el iframe y video */
+.embed-responsive {
+    border: 2px solid #28a745; /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+/* Asegúrate de que el iframe o video ocupe todo el ancho y alto */
+.embed-responsive-item {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: 100%; /* Ocupa el 100% del alto del contenedor */
+}
+
+
+/* Estilo para las cartas */
+.skeuo-card {
+    transition: transform 0.5s, box-shadow 0.5s; /* Transición suave para transformaciones y sombras */
+}
+
+.skeuo-card:hover {
+    transform: scale(1.05); /* Escalar la carta al pasar el cursor */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra al pasar el cursor */
+}
+
+/* Formulario */
+.skeuo-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skeuo-input {
+    border: 2px solid #008080;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #008080;
+    color: white;
+}
+
+footer a {
+    margin: 0 10px;
+    color: white;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #3b15e7;
+}
+.animar {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animar.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Notas Psicológicas */
+.notas-container {
+    background-color: rgba(18, 93, 231, 0.9);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+#notaInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #008080;
+}
+
+.acciones button {
+    background-color: #008080;
+    color: rgb(12, 12, 12);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.acciones button:hover {
+    background-color: #1410e0;
+}
+
+/* Ajuste responsivo */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .skeuo-card {
+        margin-bottom: 20px;
+    }
+}
+.notas-container {
+    background-image: url(cerebro\ gris.avif);
+    background-size: cover;
+    background-position: center;
+    color: rgb(15, 15, 15);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.lista-notas .nota {
+    background: rgba(34, 115, 221, 0.6);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nota p {
+    margin: 0;
+    flex-grow: 1;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.eliminar-btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(17, 226, 216);
+    cursor: pointer;
+}
+
+.eliminar-btn:hover {
+    color: rgb(26, 200, 212);
+}
+
